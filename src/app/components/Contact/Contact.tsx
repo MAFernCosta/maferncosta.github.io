@@ -1,0 +1,39 @@
+import React from "react";
+import { FaLinkedinIn, FaGithub, FaFreeCodeCamp } from "react-icons/fa";
+import { MdEmail, MdPhone } from "react-icons/md";
+
+const contacts = [
+    { name: "LinkedIn", link: "", icon: { component: <FaLinkedinIn />, style: "text-blue-600 hover:text-blue-700" } },
+    { name: "Email", link: "", icon: { component: <MdEmail />, style: "text-red-600 hover:text-red-700" } },
+    { name: "Phone", link: "", icon: { component: <MdPhone />, style: "text-green-600 hover:text-green-700" } },
+    { name: "GitHub", link: "", icon: { component: <FaGithub />, style: "text-gray-800 hover:text-gray-600" } },
+    { name: "freeCodeCamp", link: "", icon: { component: <FaFreeCodeCamp />, style: "text-yellow-500 hover:text-yellow-600" } },
+]
+export default function Contact() {
+
+    return (
+        <>
+            <div className="container mx-auto px-4 text-center">
+                <p className="text-gray-600 mb-8 text-lg">
+                    Feel free to connect with me.
+                </p>
+                <div className="flex justify-center gap-6 flex-wrap">
+                    {contacts.map(({ name, link, icon }) =>
+                        <a
+                            key={name}
+                            href={link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className={`${icon.style} text-5xl transition`}
+                            aria-label={name}
+                        >
+                            {icon.component}
+                        </a>
+                    )}
+
+
+                </div>
+            </div>
+        </>
+    )
+}
