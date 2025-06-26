@@ -3,6 +3,7 @@ import Project from "./components/Project/Project";
 import Skills from "./components/Skills/Skills";
 import Contact from "./components/Contact/Contact";
 import AboutMe from "./components/AboutMe/AboutMe";
+import Navbar from "./components/Navbar";
 
 
 
@@ -50,23 +51,7 @@ export default function Home() {
     <div className="container mx-auto lg:px-4">
       <aside className="pb-1 w-full lg:p-0 lg:w-90 lg:h-dvh lg:fixed bg-gray-100 text-black">
         <div className="flex flex-col lg:flex-col-reverse">
-          <nav className="border-b-1 lg:border-0">
-            <ul className="p-2 w-full flex justify-between lg:flex-col">
-              {nav.map(({ label, to }, index) =>
-                <li
-                  className="pb-1 inline-block lg:inline"
-                  key={index}
-                >
-                  <a
-                    href={to}
-                    className="block p-2 text-lg hover:bg-gray-200 "
-                  >
-                    {label}
-                  </a>
-                </li>
-              )}
-            </ul>
-          </nav>
+          <Navbar/>
           <div>
             <div className="flex flex-col items-center pt-5">
               <Image
@@ -103,7 +88,7 @@ export default function Home() {
         src="/images/miguel_costa_logo.svg"
         width={logoSize}
         height={logoSize} />
-        <span className="-mt-5">Made by Miguel Costa</span>
+        <span className="-mt-5">Made by Miguel Costa using Next.js</span>
       </footer>
     </div>
   );
