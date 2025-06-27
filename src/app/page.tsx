@@ -12,39 +12,10 @@ import Navbar from "./components/Navbar";
 export default function Home() {
   const imageSize = 200;
   const logoSize = 70;
-
-  const projects = [
-    {
-      titel: "Random Quote Machine",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis vitae ab eveniet modi nemo voluptas?",
-      imageURL: "/images/projects/random-quote-machine.png"
-    },
-    {
-      titel: "Cash Register",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis vitae ab eveniet modi nemo voluptas?",
-      imageURL: "/images/projects/cash-register.png"
-    },
-    {
-      titel: "Lorem, ipsum dolor.",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis vitae ab eveniet modi nemo voluptas?",
-      imageURL: "https://placehold.co/600x400"
-    },
-    {
-      titel: "Lorem.",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis vitae ab eveniet modi nemo voluptas?",
-      imageURL: "https://placehold.co/600x400/orange/white"
-    },
-    {
-      titel: "Lorem ipsum dolor sit.",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis vitae ab eveniet modi nemo voluptas?",
-      imageURL: "https://placehold.co/600x400/black/white"
-    },
-
-  ]
   const nav = [
     { label: "About me", to: "", component: <AboutMe /> },
     { label: "Skills", to: "", component: <Skills /> },
-    { label: "Projects", to: "", component: <Project projects={projects} /> },
+    { label: "Projects", to: "", component: <Project /> },
     { label: "Contact", to: "", component: <Contact /> },
   ];
   return (
@@ -88,7 +59,7 @@ export default function Home() {
         src="/images/miguel_costa_logo.svg"
         width={logoSize}
         height={logoSize} />
-        <span className="-mt-5">Made by Miguel Costa using Next.js</span>
+        <span className="-mt-5 text-xs">Made by Miguel Costa using Tailwind and Next.js</span>
       </footer>
     </div>
   );

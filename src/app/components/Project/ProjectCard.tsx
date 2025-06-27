@@ -1,23 +1,47 @@
+import Link from "next/link";
 import { MdOpenInNew } from "react-icons/md";
 import { RiGithubLine } from "react-icons/ri";
 
 type Project = {
-    titel: string,
+    title: string,
     description: string,
-    imageURL: string
+    image: string,
+    demo: string,
+    github:string,
+    tags: string[]
 
 }
 export default function ProjectCard({ project }: { project: Project }) {
-    const { titel, description, imageURL } = project;
+    const { title, description, image, demo, github, tags } = project;
     return (
             <div className="max-w-sm rounded-2xl overflow-hidden shadow-lg border border-gray-200 bg-white hover:shadow-xl transition-shadow">
-                <img className="w-full h-48 object-cover" src={imageURL} alt="Project image" />
+                <img className="w-full h-48 object-cover" src={image} alt="Project image" />
                 <div className="p-4">
-                    <h3 className="text-xl font-semibold mb-2">{titel}</h3>
-                    <p className="text-gray-600 mb-4">{description}</p>
-                    <div className="">
-                        <button className="inline-block p-2.5 rounded-xl bg-gray-500 text-white font-medium hover:bg-blue-700 transition-colors text-4xl lg:text-2xl mx-1"><MdOpenInNew /></button>
-                        <button className="inline-block p-2.5 rounded-xl bg-gray-500 text-white font-medium hover:bg-blue-700 transition-colors text-4xl lg:text-2xl mx-1"><RiGithubLine /></button>
+                    <h3 className="text-xl font-semibold mb-2">{title}</h3>
+                    <p className="text-gray-600 ">{description}</p>
+                    {tags.map(item=>
+                        <span key={item} className="pe-1.5 text-xs text-gray-500">
+                            {item}
+                            </span>
+                    )}
+                    <div className="mt-4">
+                        {demo && 
+                        <a
+                        target="_blank"
+                        href={demo} 
+                        className="inline-block p-2.5 rounded-xl bg-gray-500 text-white font-medium hover:bg-blue-700 transition-colors text-4xl lg:text-2xl mx-1" 
+                        ><MdOpenInNew />
+                        </a>
+                        }
+                        {github&&
+                        <a 
+                        target="_blank"
+                        href={github}
+                        className="inline-block p-2.5 rounded-xl bg-gray-500 text-white font-medium hover:bg-blue-700 transition-colors text-4xl lg:text-2xl mx-1"
+                        ><RiGithubLine />
+                        </a>
+                        }
+                        
                         
                     </div>
                 </div>

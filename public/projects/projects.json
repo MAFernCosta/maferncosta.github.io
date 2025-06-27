@@ -1,5 +1,14 @@
 
 [
+  {
+      "title": "Homepage Morgenegg Gervasi",
+      "description": "A work-in-progress modern website for an architecture firm, featuring a clean, responsive design and Contentful integration for easy content management.",
+      "image": "/projects/homepage_morgenegg_gervasi/preview.png",
+      "demo": "https://stage-morgenegg-gervasi.netlify.app/",
+      "github":"",
+      "date": "27/05/25",
+      "tags": ["Next.js", "Bootstrap", "API"]
+    },
     {
       "title": "Random Quote Machine",
       "description": "Random Quote Machine is a React app that displays random quotes with Bootstrap for responsive design.",
