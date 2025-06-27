@@ -23,7 +23,7 @@ export default function Navbar() {
     //const router = useRouter();
 
     return (
-        <nav className="space-y-2 p-4 ">
+        <nav className="space-y-2 p-4 flex flex-row justify-center lg:flex-col">
             {navItems.map(({ label, icon, href }) => {
                 //const isActive = router.pathname === href; 
                 const isActive = false;
