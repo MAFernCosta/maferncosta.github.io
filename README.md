@@ -13,4 +13,9 @@ This project is currently in development. Major updates and improvements are pla
 - Better performance and responsiveness
 - Updated contact section and CV
 
+To do: 
+- collapsible navbar on mobile devices. 
+- some pagination for the projects, i just want to show maybe 4 items at first and then add show more button.
+- maybe do some animations? 
+
 Stay tuned for updates!
