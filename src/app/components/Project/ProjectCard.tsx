@@ -14,11 +14,11 @@ type Project = {
 export default function ProjectCard({ project }: { project: Project }) {
     const { title, description, image, demo, github, tags } = project;
     return (
-            <div className="max-w-sm rounded-2xl overflow-hidden shadow-lg border border-gray-200 bg-white hover:shadow-xl transition-shadow">
+            <div className="max-w-sm rounded-2xl overflow-hidden shadow-lg border border-gray-200 bg-white hover:shadow-xl transition-shadow h-[28rem] w-[360px]">
                 <img className="w-full h-48 object-cover" src={image} alt="Project image" />
                 <div className="p-4">
                     <h3 className="text-xl font-semibold mb-2">{title}</h3>
-                    <p className="text-gray-600 ">{description}</p>
+                    <p className="text-gray-600 h-[6.5rem]">{description}</p>
                     {tags.map(item=>
                         <span key={item} className="pe-1.5 text-xs text-gray-500">
                             {item}

@@ -2,36 +2,30 @@
 'use client';
 
 import Link from 'next/link';
-import { useRouter } from 'next/router';
-import {
-    AiFillHome,
-    AiOutlineFolderOpen,
-    AiOutlineCode,
-    AiOutlineUser,
-    AiOutlineMail,
-} from 'react-icons/ai';
+import { ReactNode } from 'react';
+import { Component } from 'react';
+import { IconType } from 'react-icons';
 
-const navItems = [
-    { label: 'Home', icon: <AiFillHome />, href: '/' },
-    { label: 'About', icon: <AiOutlineUser />, href: '/about' },
-    { label: 'Skills', icon: <AiOutlineCode />, href: '/skills' },
-    { label: 'Projects', icon: <AiOutlineFolderOpen />, href: '/projects' },
-    { label: 'Contact', icon: <AiOutlineMail />, href: '/contact' },
-];
+type NavItems = {
+  label: string;
+  icon: ReactNode;
+  to: string;
+  component: ReactNode | string;
+};
 
-export default function Navbar() {
+export default function Navbar({ navItems } : { navItems: NavItems[] }) {
     //const router = useRouter();
 
     return (
         <nav className="space-y-2 p-4 flex flex-row justify-center lg:flex-col">
-            {navItems.map(({ label, icon, href }) => {
+            {navItems.map(({ label, icon, to }) => {
                 //const isActive = router.pathname === href; 
                 const isActive = false;
 
                 return (
                     <Link
-                        key={href}
-                        href={href}
+                        key={to}
+                        href={`#${to}`}
                         className={`flex items-center gap-4 px-4 py-2 rounded-lg transition-all duration-200
                 ${isActive
                                 ? 'bg-gray-100  text-black  font-semibold'
