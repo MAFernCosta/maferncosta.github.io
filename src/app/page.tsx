@@ -18,12 +18,6 @@ import {
 export default function Home() {
   const imageSize = 200;
   const logoSize = 70;
-  const nav = [
-    { label: "About me", to: "#about", component: <AboutMe /> },
-    { label: "Skills", to: "", component: <Skills /> },
-    { label: "Projects", to: "", component: <Project /> },
-    { label: "Contact", to: "", component: <Contact /> },
-  ];
   const content = [
     { label: 'Home', icon: <AiFillHome />, to: '/', component: "" },
     { label: 'About me', icon: <AiOutlineUser />, to: 'about', component: <AboutMe /> },

@@ -17,13 +17,24 @@ export default function Project() {
             .then(data => setProjects(data))
             .catch(err => console.error(err));
     }, []);
+    /*const projects = [
+         {
+      "title": "Homepage Morgenegg Gervasi",
+      "description": "A work-in-progress modern website for an architecture firm, featuring a clean, responsive design and Contentful integration for easy content management.",
+      "image": "/projects/homepage_morgenegg_gervasi/preview.png",
+      "demo": "https://stage-morgenegg-gervasi.netlify.app/",
+      "github":"",
+      "date": "27/05/25",
+      "tags": ["Next.js", "Bootstrap", "API"]
+    }
+    ]*/
     return (
         <>
             <div className="grid lg:grid-cols-3 gap-2 ">
                 {projects.map((project, index) => {
                     return (
                         <div key={index} className="mx-auto">
-                            <ProjectCard project={project} />
+                            {<ProjectCard project={project} />}
                         </div>
                     )
                 })}

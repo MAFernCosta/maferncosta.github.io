@@ -1,6 +1,6 @@
 import React from "react";
 import { FaLinkedinIn, FaGithub, FaFreeCodeCamp } from "react-icons/fa";
-import { MdEmail, MdPhone } from "react-icons/md";
+import { MdEmail } from "react-icons/md";
 
 const contacts = [
     { name: "LinkedIn", link: "https://www.linkedin.com/in/miguel-costa-0b8611298/", icon: { component: <FaLinkedinIn />, style: "text-blue-600 hover:text-blue-700" } },

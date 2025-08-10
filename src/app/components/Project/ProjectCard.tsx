@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { MdOpenInNew } from "react-icons/md";
 import { RiGithubLine } from "react-icons/ri";
 

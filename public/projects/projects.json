@@ -35,18 +35,10 @@
       "tags": ["JavaScript", "CSS"]
     },
     {
-      "title": "Cash register",
-      "description": "A cash register that gives change based on the available coins and bills in the drawer.",
-      "image": "projects/roman-numeral-converter/preview.png",
-      "demo": "projects/roman-numeral-converter/index.htm",
-      "date":"",
-      "tags": ["JavaScript", "CSS"]
-    },
-    {
       "title": "Roman Numeral Converter",
       "description": "This project demonstrates the use of JavaScript and recursion.",
-      "image": "projects/cash-register/preview.png",
-      "demo": "projects/cash-register/index.htm",
+      "image": "projects/roman-numeral-converter/preview.png",
+      "demo": "projects/roman-numeral-converter/index.html",
       "date":"",
       "tags": ["JavaScript", "CSS"]
     },
