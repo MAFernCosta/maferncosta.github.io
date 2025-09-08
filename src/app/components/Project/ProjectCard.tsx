@@ -13,7 +13,7 @@ type Project = {
 export default function ProjectCard({ project }: { project: Project }) {
     const { title, description, image, demo, github, tags } = project;
     return (
-            <div className="max-w-sm rounded-2xl overflow-hidden shadow-lg border border-gray-200 bg-white hover:shadow-xl transition-shadow h-[28rem] w-[360px]">
+            <div className=" rounded-2xl overflow-hidden shadow-lg border border-gray-200 bg-white hover:shadow-xl transition-shadow h-[29rem] sm:w-[560px] md:w-[360px] lg:w-[560px] xl:w-[400px] 2xl:w-[360px]">
                 <img className="w-full h-48 object-cover" src={image} alt="Project image" />
                 <div className="p-4">
                     <h3 className="text-xl font-semibold mb-2">{title}</h3>
@@ -23,7 +23,7 @@ export default function ProjectCard({ project }: { project: Project }) {
                             {item}
                             </span>
                     )}
-                    <div className="mt-4">
+                    <div className="my-4 ">
                         {demo && 
                         <a
                         target="_blank"
