@@ -15,7 +15,7 @@ export default function Contact() {
         <>
             <div className="container mx-auto px-4 text-center">
                 <p className="text-gray-600 mb-8 text-lg">
-                    Feel free to connect with me.
+                    Kontaktiere mich unter 
                 </p>
                 <div className="flex justify-center gap-6 flex-wrap">
                     {contacts.map(({ name, link, icon }) =>

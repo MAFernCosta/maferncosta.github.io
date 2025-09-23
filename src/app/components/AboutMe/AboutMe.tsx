@@ -1,12 +1,26 @@
 export default function AboutMe() {
     return (
         <span className="text-gray-600">
-            <p>Hi, I&apos;m Miguel Costa — an aspiring Fullstack Developer with a background in system programming. I hold a diplom in Técnico de Programação de Sistemas Informáticos from Portugal, where I first turned my passion for technology into a serious path. Programming has always been a part of my life, from personal projects to small solutions I developed at various jobs to solve real-world problems.</p>
+            <p>
+                Hey, ich bin Miguel Costa – ein angehender Applikationsentwickler mit einem Hintergrund in Systemprogrammierung.
+                In Portugal habe ich mein Diplom als Techniker Informatik Fachrichtung Programmierung gemacht und dort meine Leidenschaft
+                für Technologie zu einem klaren Karriereweg entwickelt.
+            </p>
             <br />
-            <p>Now based in Thurgau, Switzerland, I&apos;m focused on sharpening my skills through hands-on experience. I&apos;m currently learning Express.js and continuously building personal projects — sometimes even helping others with theirs. My goal is to grow as a developer by taking on new challenges, learning fast, and building useful real-world applications.</p>
+            <p>
+                Zurzeit lebe ich im Thurgau, Schweiz, und absolviere einen Lehrgang in Fachrichtung Applikationsentwicklung in Zürich.
+                Parallel dazu arbeite ich an eigenen Projekten, vertiefe mein Wissen in modernen Webtechnologien wie Express.js
+                und unterstütze gelegentlich andere bei ihren Ideen.
+            </p>
             <br />
-            <p>Outside of coding, I enjoy home automation and small electronics projects using tools like ESP32 and Arduino. I&apos;m currently open to internship opportunities and freelance gigs that will help me grow and contribute meaningfully.</p>
-        </span>
+            <p>
+                Mein Ziel ist es, mich stetig weiterzuentwickeln, neue Herausforderungen anzunehmen und Anwendungen zu bauen,
+                die echten Mehrwert bieten.
+            </p>
+            <p>
+                Neben dem Programmieren interessiere ich mich für Heimautomatisierung und kleine Elektronikprojekte,
+                z.B. mit ESP32 oder Arduino. Momentan suche ich eine Praktikumstelle für August 2026 um meinen Lehrgang zu vervollständigen.
+            </p></span>
     )
 
 }

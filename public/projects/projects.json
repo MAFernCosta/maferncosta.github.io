@@ -1,8 +1,8 @@
 
 [
   {
-      "title": "Homepage Morgenegg Gervasi",
-      "description": "A work-in-progress modern website for an architecture firm, featuring a clean, responsive design and Contentful integration for easy content management.",
+      "title": "Homepage Morgenegg Gervasi AG",
+      "description": "Eine moderne Website im Aufbau für ein Architekturbüro, mit klarem, responsivem Design und Contentful-Integration für eine einfache Inhaltsverwaltung.",
       "image": "/projects/homepage_morgenegg_gervasi/preview.png",
       "demo": "https://stage-morgenegg-gervasi.netlify.app/",
       "github":"",
@@ -11,7 +11,7 @@
     },
     {
       "title": "Random Quote Machine",
-      "description": "Random Quote Machine is a React app that displays random quotes with Bootstrap for responsive design.",
+      "description": "Random Quote Machine ist eine React-App, die zufällige Zitate anzeigt und Bootstrap für ein responsives Design nutzt.",
       "image": "projects/random-quote-machine/preview.png",
       "demo": "https://maferncosta.github.io/random-quote-machine/",
       "github":"https://github.com/MAFernCosta/random-quote-machine",
@@ -20,7 +20,7 @@
     },
     {
       "title": "Poke API",
-      "description": "A web app similar to a Pokédex that fetches and displays Pokémon information using an API, searchable by name or ID.",
+      "description": "Eine Web-App ähnlich einem Pokédex, die Pokémon-Informationen über eine API abruft und anzeigt, durchsuchbar nach Name oder ID.",
       "image": "projects/pokeapi/preview.png",
       "demo": "projects/pokeapi/index.htm",
       "date": "21/12/24",
@@ -28,7 +28,7 @@
     },
     {
       "title": "Cash register",
-      "description": "A cash register that gives change based on the available coins and bills in the drawer.",
+      "description": "Eine Kasse, die das Rückgeld basierend auf den verfügbaren Münzen und Scheinen in der Lade ausgibt.",
       "image": "projects/cash-register/preview.png",
       "demo": "projects/cash-register/index.htm",
       "date":"",
@@ -36,7 +36,7 @@
     },
     {
       "title": "Roman Numeral Converter",
-      "description": "This project demonstrates the use of JavaScript and recursion.",
+      "description": "Dieses Projekt demonstriert den Einsatz von JavaScript und Rekursion.",
       "image": "projects/roman-numeral-converter/preview.png",
       "demo": "projects/roman-numeral-converter/index.html",
       "date":"",
@@ -44,7 +44,7 @@
     },
     {
       "title": "Simple lists",
-      "description": "It's like a to-do list, but you can use it to organize and list anything you want.",
+      "description": "Flexible Liste zum Organisieren und Auflisten beliebiger Inhalte.",
       "image": "projects/simple-lists/preview.png",
       "github": "https://github.com/MAFernCosta/Simple-lists",
       "date":"",
@@ -52,7 +52,7 @@
     },
     {
       "title": "Palindrome checker",
-      "description": "This is my first project using JavaScript and it is a Palindrome Checker.",
+      "description": "Dies ist mein erstes Projekt mit JavaScript, und es ist ein Palindrom-Prüfer.",
       "image": "projects/Palindrome-checker/preview.png",
       "demo": "projects/Palindrome-checker/index.html",
       "date":"",
@@ -60,7 +60,7 @@
     },
     {
       "title": "Aquilino Ribeiro Tribute Page",
-      "description": "This is an HTML tribute page.",
+      "description": "Dies ist eine HTML-Tributseite.",
       "image": "projects/aquilino_ribeiro-tribute_page/preview.png",
       "demo": "projects/aquilino_ribeiro-tribute_page/index.html",
       "date":"",
@@ -68,7 +68,7 @@
     },
     {
       "title": "Survey form",
-      "description": "This is my first project using HTML and Forms.",
+      "description": "Dies ist mein erstes Projekt mit HTML und Formularen.",
       "image": "projects/Survey-form/preview.png",
       "demo": "pprojects/Survey-form/index.html",
       "date":"",

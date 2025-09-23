@@ -20,10 +20,10 @@ export default function Home() {
   const logoSize = 70;
   const content = [
     { label: 'Home', icon: <AiFillHome />, to: '/', component: "" },
-    { label: 'About me', icon: <AiOutlineUser />, to: 'about', component: <AboutMe /> },
+    { label: 'Über mich', icon: <AiOutlineUser />, to: 'about', component: <AboutMe /> },
     { label: 'Skills', icon: <AiOutlineCode />, to: 'skills', component: <Skills /> },
-    { label: 'Projects', icon: <AiOutlineFolderOpen />, to: 'projects', component: <Project /> },
-    { label: 'Contact', icon: <AiOutlineMail />, to: 'contact', component: <Contact /> },
+    { label: 'Projekte', icon: <AiOutlineFolderOpen />, to: 'projects', component: <Project /> },
+    { label: 'Kontakt', icon: <AiOutlineMail />, to: 'contact', component: <Contact /> },
   ];
   return (
     <div className="container mx-auto lg:px-4">
@@ -42,7 +42,7 @@ export default function Home() {
               <h1 className="text-4xl mt-4 font-semibold">Miguel Costa</h1>
             </div>
             <p className="m-4.5 text-gray-800">
-              Self-taught fullstack web developer focused on building clean, modern, and responsive websites.
+              Vom Systemprogrammierer zum Applikationsentwickler – immer mit Blick nach vorne.
             </p>
           </div>
         </div>
