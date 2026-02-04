@@ -19,7 +19,7 @@ export default function AboutMe() {
             </p>
             <p>
                 Neben dem Programmieren interessiere ich mich für Heimautomatisierung und kleine Elektronikprojekte,
-                z.B. mit ESP32 oder Arduino. Momentan suche ich eine Praktikumstelle für August 2026 um meinen Lehrgang zu vervollständigen.
+                z.B. mit ESP32 oder Arduino.
             </p></span>
     )
 
