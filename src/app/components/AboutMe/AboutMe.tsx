@@ -1,6 +1,6 @@
 export default function AboutMe() {
     return (
-        <span className="text-gray-600">
+        <div className="text-gray-600">
             <p>
                 Hey, ich bin Miguel Costa – ein angehender Applikationsentwickler mit einem Hintergrund in Systemprogrammierung.
                 In Portugal habe ich mein Diplom als Techniker Informatik Fachrichtung Programmierung gemacht und dort meine Leidenschaft
@@ -20,7 +20,8 @@ export default function AboutMe() {
             <p>
                 Neben dem Programmieren interessiere ich mich für Heimautomatisierung und kleine Elektronikprojekte,
                 z.B. mit ESP32 oder Arduino.
-            </p></span>
+            </p>
+        </div>
     )
 
 }
