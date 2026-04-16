@@ -1,5 +1,8 @@
 import { FaReact, FaBootstrap, FaNodeJs, FaHtml5, FaCss3Alt, FaJs, FaGitAlt} from 'react-icons/fa';
 import { RiTailwindCssFill } from 'react-icons/ri';
+import { SiTypescript } from "react-icons/si";
+
+
 
 
 export default function Skills() {
@@ -11,7 +14,9 @@ export default function Skills() {
     { name: 'CSS3', icon: <FaCss3Alt className="text-blue-600" size={35} /> },
     { name: 'JavaScript', icon: <FaJs className="text-yellow-400" size={35} /> },
     { name: 'Git', icon: <FaGitAlt  style={{color:"#f05133"}} size={35}/> },
-    { name: 'Tailwindcss', icon: <RiTailwindCssFill style={{color:"#00bcff"}} size={35}/> }
+    { name: 'Tailwindcss', icon: <RiTailwindCssFill style={{color:"#00bcff"}} size={35}/> },
+    { name: 'TypeScript', icon: <SiTypescript style={{color:"#2f74c0"}} size={35}/> },
+
   ];
 
   return (
