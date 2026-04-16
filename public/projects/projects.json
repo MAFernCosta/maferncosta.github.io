@@ -70,7 +70,7 @@
       "title": "Survey form",
       "description": "Dies ist mein erstes Projekt mit HTML und Formularen.",
       "image": "projects/Survey-form/preview.png",
-      "demo": "pprojects/Survey-form/index.html",
+      "demo": "projects/Survey-form/index.html",
       "date":"",
       "tags": ["HTML", "CSS"]
     }
